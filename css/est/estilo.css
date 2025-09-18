@@ -36,8 +36,9 @@ display: flex;
 }
 
 /*ESTILO BANNER*/
-#banner{
+.banner img{
     width: 100%;
+    
 }   
 
 /*estiLO RAPIDO*/
@@ -64,11 +65,11 @@ text-align: center;
 
 /* ESTILO SOBRE*/
 .box{
-    max-width: 500px;
+    width: 500px;
 
 }
 .box img{ 
-    width: 100%;
+    width: 400px;
 
 }
 .box h2{
@@ -76,4 +77,60 @@ text-align: center;
     text-align: left;
     font-weight:bold;
     
+}
+#conteiner1{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:1000px){
+#menu{ 
+width: 100%;
+height: auto;
+
+
+
+}
+.banner{
+    width: 100%;
+   height: auto;
+
+   
+}
+#conteiner1{
+    flex-direction: column;
+  
+
+}
+.box{
+    width: 100%;
+    height: auto;
+
+}
+
+.conteiner{
+    flex-direction: column;
+    height: auto;
+    display: flex;
+}
+.botão{
+    width: auto;
+    padding: 12px 20px;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 30px;
+}
+.box img{
+    width: 100%;
+}
+.logo{
+    width: 200px;
+}
 }
