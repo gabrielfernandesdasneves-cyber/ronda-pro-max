@@ -6,6 +6,7 @@ body{ font-family:  Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;}
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 
 
 }
@@ -17,8 +18,6 @@ body{ font-family:  Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;}
     font-weight: bold;
    
 }
-
-
 /*configuração do menu*/
 #menu{
 width: 100%;
@@ -42,10 +41,12 @@ display: flex;
 }   
 
 /*estiLO RAPIDO*/
-.rapido{
+#rapido{
     width: 100%;
-    width: 160px;
     background-color: #f7f7f7;
+    background-position: 100%;
+    background-size: cover;
+
 }
 h1{
    
@@ -85,12 +86,11 @@ text-align: center;
     justify-content: space-between;
     align-items: center;
 }
+
 @media screen and (max-width:1000px){
 #menu{ 
 width: 100%;
 height: auto;
-
-
 
 }
 .banner{
