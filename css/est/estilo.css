@@ -32,12 +32,16 @@ display: flex;
     width: 240px;
     height: 84px;
    
+   
 }
 
 /*ESTILO BANNER*/
 .banner img{
     width: 100%;
     
+}
+.mobile{
+    display: none;
 }   
 
 /*estiLO RAPIDO*/
@@ -94,6 +98,7 @@ height: auto;
 
 }
 .banner{
+
     width: 100%;
    height: auto;
 
@@ -135,5 +140,11 @@ h2{
 }
 .logo{
     width: 200px;
+}
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
 }
 }
