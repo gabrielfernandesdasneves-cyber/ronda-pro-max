@@ -116,7 +116,7 @@ height: auto;
     display: flex;
 }
 .botão{
-    width: auto;
+    width: 80%;
     padding: 12px 20px;
     justify-content: center;
     display: flex;
@@ -126,6 +126,9 @@ h1{
 }
 h2{
     font-size: 30px;
+}
+#sobre{
+    padding: 0 16px;
 }
 .box img{
     width: 100%;
